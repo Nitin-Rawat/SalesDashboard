@@ -40,7 +40,7 @@ function Login() {
 
   return (
     <Box
-      bgImage="url('./public/bg_img.jpg')"
+      bgImage="url('./public/bg_img.JPG')"
       bgSize="cover"
       bgPosition="center"
       bgRepeat="no-repeat"
