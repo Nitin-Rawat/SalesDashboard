@@ -28,7 +28,6 @@ const productData = [
   { id: "product3", name: "Product 3", sku: "SKU3", price: 150 },
   { id: "product4", name: "Product 4", sku: "SKU4", price: 150 },
   { id: "product5", name: "Product 5", sku: "SKU5", price: 150 },
-
 ];
 
 const SaleOrderFormModal = ({
@@ -57,7 +56,6 @@ const SaleOrderFormModal = ({
       }
     }
   }, [defaultValues, setValue]);
-
 
   useEffect(() => {
     const newItems = selectedProducts.map((productId) => {
@@ -92,7 +90,7 @@ const SaleOrderFormModal = ({
   };
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose} size="2xl">
+    <Modal isOpen={isOpen} onClose={onClose} size="2xl" >
       <ModalOverlay />
       <ModalContent>
         <ModalHeader>Sale Order Form</ModalHeader>
@@ -107,6 +105,7 @@ const SaleOrderFormModal = ({
                 xl: "repeat(5, 1fr)",
               }}
               gap={8}
+              w={{ base: "50vw", md: "80vw" ,lg:"80vw"}}
             >
               <GridItem colSpan={1}>
                 <FormControl id="customer" isRequired>
