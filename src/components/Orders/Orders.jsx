@@ -168,7 +168,7 @@ const Orders = () => {
           <Tab>Active</Tab>
           <Tab>Completed</Tab>
           <Tab onClick={() => handleOpenModal()}>
-            <AddIcon />" " Order
+            <AddIcon />{" "} Order
           </Tab>
         </TabList>
         <TabPanels>
