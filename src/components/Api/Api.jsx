@@ -1,4 +1,3 @@
-// api.js
 export const createSaleOrder = async (data) => {
   try {
     const response = await fetch("YOUR_API_ENDPOINT", {
