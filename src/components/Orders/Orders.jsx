@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 0e7eff764ef172fa8634cdd0ff322bbe4c1341e5
 import React, { useState, useEffect } from "react";
 import {
   Box,
