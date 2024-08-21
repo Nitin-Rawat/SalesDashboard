@@ -85,7 +85,7 @@ function Login() {
               onChange={(e) => setUsername(e.target.value)}
             />
             <FormHelperText textColor={"black"}>
-              We'll never share your Username.
+               Type :- admin
             </FormHelperText>
           </FormControl>
 
@@ -116,7 +116,7 @@ function Login() {
               </InputRightElement>
             </InputGroup>
             <FormHelperText textColor={"black"}>
-              We'll never share your Password.
+             Type :-  password
             </FormHelperText>
           </FormControl>
 
